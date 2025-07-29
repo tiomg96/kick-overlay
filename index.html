@@ -112,7 +112,7 @@
     <script>
         // Connect to Streamlabs WebSocket for real-time events
         // Replace 'YOUR_STREAMLABS_TOKEN' with your Streamlabs socket token
-        const socket = new WebSocket('wss://sockets.streamlabs.com?token=YOUR_STREAMLABS_TOKEN');
+        const socket = new WebSocket('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjAzQjVCMzA4NEVGRjcwRTRBQzY2MjRFRkZFNDRCRUZDQjUyRDc5RDAzRDIxQUQwM0NGNzYzRTlGMEYyOTM3RkExMzVFQ0RFM0YyRDhDOTkxQjJGQkFCMTg2MjVGNDE5NEFDOTk0RTI5ODQ1RjY4NEUxMjU1MTNGQzZGQUFFNTJDMkU1QkQ0NEY2MzIxNUU2QjJGM0ZCMTFBNzMxNDNERTM3QUY3Qjk5NDJCNzAzNTEyRTg5OUI0NUQxNTc5REY3ODcxMDNCMDI0NDAzRDM5MjhBODVERkU5RTVEMDJCQzg2OEVEMjU1QTI4NkM3MjIzODM0NkQ0NzU3MEQiLCJyZWFkX29ubHkiOnRydWUsInByZXZlbnRfbWFzdGVyIjp0cnVlLCJraWNrX2lkIjoiMzQ4NzE2NiJ9.83mtGJOq1QGyaKe7P4jPg82JbF34PV5HTpFZ6ZELIYs');
 
         socket.onopen = function () {
             console.log('Connected to Streamlabs WebSocket');
